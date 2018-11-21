@@ -6,6 +6,7 @@ module.exports = WebpackMerge(common,{
     devtool:'source-map',
     devServer:{
         contentBase:'./dist',
-        port:8888
+        port:8888,
+        historyApiFallback:true
     }
 })
